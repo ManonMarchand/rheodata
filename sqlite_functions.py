@@ -60,17 +60,7 @@ def add_many(list):
 
 
 
-# Create a table
-# note that sql commands need to be capitalised
-# datatypes are : NULL INTEGER REAL TEXT BLOB
-# BLOB is everything else, for example images
-#c.execute("""CREATE TABLE papers (
-#    title text,
-#    url text,
-#    paper_id text,
-#    year integer,
-#    author text
-#    )""")
+
 
 # Insert values in the table
 # the paper id is the one given by google scholar for the bibtext file

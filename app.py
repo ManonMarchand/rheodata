@@ -1,3 +1,3 @@
-import database
+import sqlite_functions as sqf
 
-database.show_all()
+sqf.show_all()

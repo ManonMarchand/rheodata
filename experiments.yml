@@ -1,0 +1,30 @@
+---
+#------------
+# Describes rheological experiments
+#------------
+control_parameters:
+
+
+#------------
+# Flow curve
+#------------
+flow_curve:
+  imposed_values : shear_rate
+  measured_values : stress 
+
+#------------
+# Amplitude sweep
+#------------
+amplitude_sweep:
+
+
+
+#------------
+# Frequency sweep
+#------------
+
+#------------
+# Shear startup
+#------------
+
+
