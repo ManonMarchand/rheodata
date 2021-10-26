@@ -1,5 +1,16 @@
 ---
-Fig2_Dekker2018:
+###
+# Name_of_entry
+# # figure properties
+# figure_number: string, contains a 'S' if the figure is in the supplementary materials of the paper
+# unit_x: string, in this experiment type it should be 
+#
+#
+#
+#
+#
+###
+dekker2018scaling:
   # figure properties
   figure_number: '2'
   unit_x: s-1
@@ -7,7 +18,7 @@ Fig2_Dekker2018:
   # paper properties
   title: Scaling of flow curves Comparison between experiments and simulations
   year: 2018
-  doi: https://www.sciencedirect.com/science/article/pii/S0377025718301198
+  url: https://www.sciencedirect.com/science/article/pii/S0377025718301198
   author: Riande I. Dekker and Maureen Dinkgreve and Henri de Cagny and Dion J. Koeze and Brian P. Tighe and Daniel Bonn
   # samples properties
   sample_description: castor oil concentrated emuslions
@@ -17,7 +28,7 @@ Fig2_Dekker2018:
   experiment_type: flow_curve
   variable: phi
 
-Fig2_Dinkgreve2015:
+dinkgreve2015universal:
   # figure properties
   figure_number: '2'
   unit_x: s-1
@@ -25,7 +36,7 @@ Fig2_Dinkgreve2015:
   # paper properties
   title: Universal rescaling of flow curves for yield-stress fluids close to jamming
   year: 2015
-  doi: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.012305
+  url: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.012305
   author: Dinkgreve, M. and Paredes, J. and Michels, M. A. J. and Bonn, D.
   # sample properties
   sample: rigid emulsions of castor oil in water
@@ -35,7 +46,7 @@ Fig2_Dinkgreve2015:
   experiment_type: flow_curve
   variable: phi
 
-Fig3_Ghosh2019:
+ghosh2019linear:
   # figure properties
   figure_number: '3'
   unit_x: s-1
@@ -43,7 +54,7 @@ Fig3_Ghosh2019:
   # paper properties
   title: Linear and nonlinear rheology and structural relaxation in dense glassy and jammed soft repulsive pNIPAM microgel suspensions
   year: 2019
-  doi: https://pubs.rsc.org/en/content/articlehtml/2018/sm/c8sm02014k
+  url: https://pubs.rsc.org/en/content/articlehtml/2018/sm/c8sm02014k
   author: Ghosh, Ashesh and Chaudhary, Gaurav and Kang, Jin Gu and Braun, Paul V. and Ewoldt, Randy H. and Schweizer, Kenneth S.
   # sample properties
   sample: pnipam in water, the volume concentration is derived from their interpretation
@@ -53,7 +64,7 @@ Fig3_Ghosh2019:
   experiment_type: flow_curve
   variable: phi
 
-Fig5_Mason1996:
+mason1996yielding:
   # figure properties
   figure_number: '5'
   unit_x: s-1
@@ -61,7 +72,7 @@ Fig5_Mason1996:
   # paper properties
   title: Yielding and Flow of Monodisperse Emulsions
   year: 1996
-  doi: https://www.sciencedirect.com/science/article/pii/S0021979796902350
+  url: https://www.sciencedirect.com/science/article/pii/S0021979796902350
   author: T.G. Mason and J. Bibette and D.A. Weitz
   # sample properties
   sample: silicon droplets in water stabilised with SDS
@@ -71,7 +82,7 @@ Fig5_Mason1996:
   experiment_type: flow_curve
   variable: phi
 
-Fig6_Pamvouxoglou2021:
+pamvouxoglou2021stress:
   # figure properties
   figure_number: 6
   unit_x: s-1
@@ -79,7 +90,7 @@ Fig6_Pamvouxoglou2021:
   # paper properties
   title: Stress versus strain controlled shear Yielding and relaxation of concentrated colloidal suspensions
   year: 2021
-  doi: https://doi.org/10.1122/8.0000212
+  url: https://doi.org/10.1122/8.0000212
   author: Pamvouxoglou,A.  and Schofield,A. B.  and Petekidis,G.  and Egelhaaf,S. U.
   # sample properties
   sample: PMMA spheres in squalene
@@ -89,7 +100,7 @@ Fig6_Pamvouxoglou2021:
   experiment_type: flow_curve
   variable: phi
 
-Fig1_Paredes2013:
+paredes2013rheology:
   # figure properties
   figure_number: '1'
   unit_x: s-1
@@ -97,7 +108,7 @@ Fig1_Paredes2013:
   # paper properties
   title: Rheology across the Zero-Temperature Jamming Transition
   year: 2013
-  doi: https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.111.015701
+  url: https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.111.015701
   author: Paredes, Jos\e and Michels, Matthias A. J. and Bonn, Daniel
   # sample properties
   sample: castor oil emulsion (mobile emulsion)
@@ -107,7 +118,7 @@ Fig1_Paredes2013:
   experiment_type: flow_curve
   variable: phi
 
-Fig5_Petekidis2004:
+petekidis2004yielding:
   # figure properties
   figure_number: '5'
   unit_x: 0.158s-1
@@ -115,7 +126,7 @@ Fig5_Petekidis2004:
   # paper properties
   title: Yielding and flow of sheared colloidal glasses
   year: 2004
-  doi: https://iopscience.iop.org/article/10.1088/0953-8984/16/38/013
+  url: https://iopscience.iop.org/article/10.1088/0953-8984/16/38/013
   author: G Petekidis and D Vlassopoulos and P N Pusey
   # sample properties
   sample: PMMA hard-sphere colloids in dodecane with 12% polydispersity. Thermal system.
@@ -125,25 +136,25 @@ Fig5_Petekidis2004:
   experiment_type: flow_curve
   variable: phi
 
-FigS3a_Seth2011:
-  # figure properties
-  figure_number: Sa
-  unit_x: s-1
-  unit_y: Pa
-  # paper properties
-  title: A micromechanical model to predict the flow of soft particle glasses
-  year: 2011
-  doi: https://www.nature.com/articles/nmat3119
-  author: Seth, Jyoti R. and Mohan, Lavanya and Locatelli-Champagne, Clémentine and Cloitre, Michel and Bonnecaze, Roger T.
-  # sample properties
-  sample: oil/water-glycerol emulsions
-  solvent_viscosity: 0.0079  #Pa.s
-  legend : $\mathrm{oil~in~water~and~glycerol}$
-  # experiment properties
-  experiment_type: flow_curve
-  variable: phi
+#seth2011:
+#  # figure properties
+#  figure_number: Sa
+#  unit_x: s-1
+#  unit_y: Pa
+#  # paper properties
+#  title: A micromechanical model to predict the flow of soft particle glasses
+#  year: 2011
+#  url: https://www.nature.com/articles/nmat3119
+#  author: Seth, Jyoti R. and Mohan, Lavanya and Locatelli-Champagne, Clémentine and Cloitre, Michel and Bonnecaze, Roger T.
+#  # sample properties
+#  sample: oil/water-glycerol emulsions
+#  solvent_viscosity: 0.0079  #Pa.s
+#  legend : $\mathrm{oil~in~water~and~glycerol}$
+#  # experiment properties
+#  experiment_type: flow_curve
+#  variable: phi
 
-FigS3b_Seth2011:
+seth2011micromechanical:
   # figure properties
   figure_number: Sa
   unit_x: s-1
@@ -151,7 +162,7 @@ FigS3b_Seth2011:
   # paper properties
   title: A micromechanical model to predict the flow of soft particle glasses
   year: 2011
-  doi: https://www.nature.com/articles/nmat3119
+  url: https://www.nature.com/articles/nmat3119
   author: Seth, Jyoti R. and Mohan, Lavanya and Locatelli-Champagne, Clémentine and Cloitre, Michel and Bonnecaze, Roger T.
   # sample properties
   sample: oil/water-glycerol emulsions
