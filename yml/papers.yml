@@ -17,7 +17,7 @@ dekker2018scaling:
   sample_description: castor oil concentrated emuslions
   solvent_viscosity: 0.00089 #Pa.s for water at 25°C
   legend : $\mathrm{castor~oil~emulsions}$
-  # experiment properties
+  # experiments properties
   experiment_type: flow_curve
   variable: phi
 
@@ -128,24 +128,6 @@ petekidis2004yielding:
   # experiment properties
   experiment_type: flow_curve
   variable: phi
-
-#seth2011:
-#  # figure properties
-#  figure_number: Sa
-#  unit_x: s-1
-#  unit_y: Pa
-#  # paper properties
-#  title: A micromechanical model to predict the flow of soft particle glasses
-#  year: 2011
-#  url: https://www.nature.com/articles/nmat3119
-#  author: Seth, Jyoti R. and Mohan, Lavanya and Locatelli-Champagne, Clémentine and Cloitre, Michel and Bonnecaze, Roger T.
-#  # sample properties
-#  sample: oil/water-glycerol emulsions
-#  solvent_viscosity: 0.0079  #Pa.s
-#  legend : $\mathrm{oil~in~water~and~glycerol}$
-#  # experiment properties
-#  experiment_type: flow_curve
-#  variable: phi
 
 seth2011micromechanical:
   # figure properties

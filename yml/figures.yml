@@ -63,7 +63,7 @@ seth2011micromechanical_S3a:
   experiment_type: flow_curve
   variable: volume_fraction
   from_paper: seth2011micromechanical
-  fig_number: S3a
+  fig_number: S4a
   unit_x: 
   unit_y:
 
@@ -71,6 +71,6 @@ seth2011micromechanical_S3b:
   experiment_type: flow_curve
   variable: volume_fraction
   from_paper: seth2011micromechanical
-  fig_number: S3b
+  fig_number: S4b
   unit_x: 
   unit_y:
