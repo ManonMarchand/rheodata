@@ -1,0 +1,76 @@
+---
+#------------
+# Figures metadata are stored here 
+#------------
+
+dekker2018scaling_2:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: dekker2018scaling
+  fig_number: 2
+  unit_x: 
+  unit_y:
+
+dinkgreve2015universal_2:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: dinkgreve2015universal
+  fig_number: 2
+  unit_x: 
+  unit_y:
+
+ghosh2019linear_3:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: ghosh2019linear
+  fig_number: 3
+  unit_x: 
+  unit_y:
+
+mason1996yielding_5:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: mason1996yielding
+  fig_number: 5
+  unit_x: 
+  unit_y:
+
+pamvouxoglou2021stress_6:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: pamvouxoglou2021stress
+  fig_number: 6
+  unit_x: 
+  unit_y:
+
+paredes2013rheology_1:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: paredes2013rheology
+  fig_number: 1
+  unit_x: 
+  unit_y:
+
+petekidis2004yielding_5:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: petekidis2004yielding
+  fig_number: 5
+  unit_x: 
+  unit_y:
+
+seth2011micromechanical_S3a:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: seth2011micromechanical
+  fig_number: S3a
+  unit_x: 
+  unit_y:
+
+seth2011micromechanical_S3b:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: seth2011micromechanical
+  fig_number: S3b
+  unit_x: 
+  unit_y:
