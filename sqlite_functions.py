@@ -1,6 +1,8 @@
 import sqlite3
 import yaml
 import glob
+import numpy as np
+from pathlib import Path
 
 
 # Query the database and return all records
@@ -21,7 +23,6 @@ def show_all():
     connection.close()
 
 # Add a record to our database
-# TODO : add a version of this function that detects new papers automatically
 def add_one(title, url, paper_id, year, author):
     # Connect to database
     connection = sqlite3.connect('litterature_data.db')
@@ -57,6 +58,32 @@ def add_many(list):
     connection.commit()
     # Close the connection for good practice
     connection.close()
+    
+def query_column(table_name, column_name):
+    """Queries a column from a table of litterature_data.db
+    
+    Parameters
+    ----------
+    table_name  : str
+    column_name : str
+    
+    Returns
+    ----------
+    A list containing the column
+    """
+    table_name = str(table_name)
+    column_name = str(column_name)
+    # Connect to database
+    connection = sqlite3.connect('litterature_data.db')
+    # Create a cursor
+    c = connection.cursor()
+    # Select the column
+    c.execute(f"SELECT {column_name} FROM {table_name}")
+    column = c.fetchall()
+    array = []
+    for id in column:
+        array += [id[0]]
+    return array
 
 
 
@@ -86,6 +113,8 @@ def add_many(list):
 #c.executemany("INSERT INTO papers VALUES (?,?,?,?,?)", list_paper_database)
 
 # Query the database
+
+
 
 # Different ways to search for specific things in the databases
 #c.execute("SELECT rowid, * FROM papers")
