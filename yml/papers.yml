@@ -13,10 +13,7 @@ dekker2018scaling:
   year: 2018
   url: https://www.sciencedirect.com/science/article/pii/S0377025718301198
   author: Riande I. Dekker and Maureen Dinkgreve and Henri de Cagny and Dion J. Koeze and Brian P. Tighe and Daniel Bonn
-  # samples properties
-  sample_description: castor oil concentrated emuslions
-  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
-  legend : $\mathrm{castor~oil~emulsions}$
+
   # experiments properties
   experiment_type: flow_curve
   variable: phi
