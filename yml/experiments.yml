@@ -2,29 +2,41 @@
 #------------
 # Describes rheological experiments
 #------------
-control_parameters:
-
+# name_of_experiment : [list of table entries]
 
 #------------
 # Flow curve
 #------------
-flow_curve:
-  imposed_values : shear_rate
-  measured_values : stress 
+flow_curve: [shear_rate, stress, temperature]
 
 #------------
 # Amplitude sweep
 #------------
-amplitude_sweep:
-
-
+amplitude_sweep: [strain, storage_modulus, loss_modulus, shear_rate, temperature]
 
 #------------
 # Frequency sweep
 #------------
+frequency_sweep: [strain, storage_modulus, loss_modulus, shear_rate, temperature]
 
 #------------
 # Shear startup
 #------------
+shear_startup: [shear_rate, time, stress, temperature]
 
+#------------
+# Stress relaxation
+#------------
+stress_relaxation: [time, stress, temperature]
 
+#------------
+# Strain relaxation
+#------------
+strain_relaxation: [time, strain, temperature]
+
+#------------
+# Composite experiments with steps
+#------------
+
+# Select from the list above and build experiment with those blocks
+---
