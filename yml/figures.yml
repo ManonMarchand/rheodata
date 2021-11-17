@@ -16,6 +16,18 @@ dinkgreve2015universal_2:
   from_paper: dinkgreve2015universal
   fig_number: 2
 
+dinkgreve2015universal_4:
+  experiment_type: flow_curve
+  variable: volume_fraction
+  from_paper: dinkgreve2015universal
+  fig_number: 4
+  
+ghosh2019linear_3:
+  experiment_type: amplitude_sweep
+  variable: volume_fraction
+  from_paper: ghosh2019linear
+  fig_number: 3
+
 ghosh2019linear_3:
   experiment_type: flow_curve
   variable: volume_fraction
@@ -28,6 +40,60 @@ mason1996yielding_5:
   from_paper: mason1996yielding
   fig_number: 5
   unit_y: dynes/cm2
+  
+pamvouxoglou2021stress_2a:
+  experiment_type: shear_startup
+  variable: shear_rate
+  from_paper: pamvouxoglou2021stress
+  fig_number: 2a
+
+pamvouxoglou2021stress_2b:
+  experiment_type: shear_startup
+  variable: shear_rate
+  from_paper: pamvouxoglou2021stress
+  fig_number: 2b
+  
+pamvouxoglou2021stress_2c:
+  experiment_type: shear_startup
+  variable: shear_rate
+  from_paper: pamvouxoglou2021stress
+  fig_number: 2c
+  
+pamvouxoglou2021stress_2d:
+  experiment_type: stress_relaxation
+  variable: shear_rate
+  from_paper: pamvouxoglou2021stress
+  fig_number: 2d
+  
+pamvouxoglou2021stress_2e:
+  experiment_type: stress_relaxation
+  variable: shear_rate
+  from_paper: pamvouxoglou2021stress
+  fig_number: 2e
+  
+pamvouxoglou2021stress_2f:
+  experiment_type: stress_relaxation
+  variable: shear_rate
+  from_paper: pamvouxoglou2021stress
+  fig_number: 2f
+  
+pamvouxoglou2021stress_2ghi:
+  experiment_type: strain_relaxation
+  variable: shear_rate
+  from_paper: pamvouxoglou2021stress
+  fig_number: 2g
+  
+pamvouxoglou2021stress_2h:
+  experiment_type: strain_relaxation
+  variable: shear_rate
+  from_paper: pamvouxoglou2021stress
+  fig_number: 2h
+  
+pamvouxoglou2021stress_2i:
+  experiment_type: strain_relaxation
+  variable: shear_rate
+  from_paper: pamvouxoglou2021stress
+  fig_number: 2i
 
 pamvouxoglou2021stress_6:
   experiment_type: flow_curve
