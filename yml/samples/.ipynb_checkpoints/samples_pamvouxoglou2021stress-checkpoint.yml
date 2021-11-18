@@ -1,0 +1,4 @@
+  # sample properties
+  sample: PMMA spheres in squalene
+  solvent_viscosity: 0.0012 #Pa.s
+  legend: $\mathrm{PMMA~in~squalene}$

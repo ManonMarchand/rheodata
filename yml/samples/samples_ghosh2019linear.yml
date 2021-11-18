@@ -1,0 +1,4 @@
+# sample properties
+  sample: pnipam in water, the volume concentration is derived from their interpretation
+  solvent_viscosity: 0.00131 #Pa.s for water at 10°C
+  legend : $\mathrm{pnipam~in~water}$

@@ -1,0 +1,4 @@
+# sample properties
+  sample: silicon droplets in water stabilised with SDS
+  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
+  legend : $\mathrm{silicon~droplets~in~water}$

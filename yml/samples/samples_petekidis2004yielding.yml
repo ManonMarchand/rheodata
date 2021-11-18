@@ -1,0 +1,4 @@
+  # sample properties
+  sample: PMMA hard-sphere colloids in dodecane with 12% polydispersity. Thermal system.
+  solvent_viscosity: 0.00149 #Pa.s at 20°C
+  legend : $\mathrm{PMMA~hard~sphere~in~dodecane}$

@@ -1,0 +1,4 @@
+  # sample properties
+  sample: castor oil emulsion (mobile emulsion)
+  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
+  legend : $\mathrm{mobile~castor~oil~emulsion}$

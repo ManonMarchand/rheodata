@@ -1,0 +1,4 @@
+  # sample properties
+  sample: oil/water-glycerol emulsions
+  solvent_viscosity: 0.001  #Pa.s
+  legend : $\mathrm{oil~in~water~and~glycerol}$

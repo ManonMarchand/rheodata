@@ -1,0 +1,55 @@
+dekker2018scaling_1:
+  type: emulsion
+  continuous_phase: water
+  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
+  dispersed_phase: castor oil
+  volume_fraction: 0.68
+  in_paper: dekker2018scaling
+
+dekker2018scaling_2:
+  type: emulsion
+  continuous_phase: water
+  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
+  dispersed_phase: castor oil
+  volume_fraction: 0.70
+  in_paper: dekker2018scaling
+  
+  dekker2018scaling_3:
+  type: emulsion
+  continuous_phase: water
+  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
+  dispersed_phase: castor oil
+  volume_fraction: 0.72
+  in_paper: dekker2018scaling
+  
+  dekker2018scaling_4:
+  type: emulsion
+  continuous_phase: water
+  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
+  dispersed_phase: castor oil
+  volume_fraction: 0.74
+  in_paper: dekker2018scaling
+  
+  dekker2018scaling_5:
+  type: emulsion
+  continuous_phase: water
+  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
+  dispersed_phase: castor oil
+  volume_fraction: 0.76
+  in_paper: dekker2018scaling
+  
+  dekker2018scaling_6:
+  type: emulsion
+  continuous_phase: water
+  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
+  dispersed_phase: castor oil
+  volume_fraction: 0.78
+  in_paper: dekker2018scaling
+  
+  dekker2018scaling_7:
+  type: emulsion
+  continuous_phase: water
+  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
+  dispersed_phase: castor oil
+  volume_fraction: 0.80
+  in_paper: dekker2018scaling
