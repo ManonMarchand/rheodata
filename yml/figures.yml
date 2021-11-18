@@ -1,6 +1,6 @@
 ---
 #------------
-# Figures metadata are stored here 
+# Figures metadata are stored here in alphabetical order
 #------------
 # if the unit_x and unit_y are not specified, s-1 and pascals
 
@@ -22,11 +22,11 @@ dinkgreve2015universal_4:
   from_paper: dinkgreve2015universal
   fig_number: 4
   
-ghosh2019linear_3:
+ghosh2019linear_2:
   experiment_type: amplitude_sweep
   variable: volume_fraction
   from_paper: ghosh2019linear
-  fig_number: 3
+  fig_number: 2
 
 ghosh2019linear_3:
   experiment_type: flow_curve
