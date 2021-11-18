@@ -1,4 +1,24 @@
-  # sample properties
-  sample: PMMA spheres in squalene
-  solvent_viscosity: 0.0012 #Pa.s
-  legend: $\mathrm{PMMA~in~squalene}$
+---
+# constant parameters to be added to each line of the table
+
+constant_parameters:
+  type: suspension
+  continuous_phase: squalene # is an oil, C_30_H_50
+  solvent_viscosity: 0.0012 # Pa.s
+  surfactant: SDS # at a concentration of 10mM
+  dispersed_phase: PMMA # poly(methyl methacrylate), plexiglass
+  temperature: 25 # °C
+  in_paper: pamvouxoglou2021stress
+  polydispersity: 25 # %
+  mean_radius: 157e-9 # m, measured via static light scattering
+  
+
+# sample_id : value of the variable parameter
+
+1:
+  volume_fraction: 0.575
+2:
+  volume_fraction: 0.602
+3:
+  volume_fraction: 0.624
+---

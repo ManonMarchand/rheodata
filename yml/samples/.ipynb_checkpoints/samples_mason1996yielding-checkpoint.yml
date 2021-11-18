@@ -7,8 +7,10 @@ constant_parameters:
   solvent_viscosity: 0.00089 # Pa.s for water at 25°C
   surfactant: SDS # at a concentration of 10mM
   dispersed_phase: silicon
-  temperature: 25 #°C
+  temperature: 25 # °C
   in_paper: mason1996yielding
+  polydispersity: 10 # %
+  mean_radius: 0.25e-6 # m
   
 
 # sample_id : value of the variable parameter
