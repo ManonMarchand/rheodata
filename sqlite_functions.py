@@ -86,6 +86,13 @@ def query_column(table_name, column_name):
     return array
 
 
+def get_column_names(table_name):
+    """ Queries the names of the columns of a table 
+
+    Args:
+        table_name ([type]): [description]
+    """
+
 
 
 
