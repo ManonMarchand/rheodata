@@ -38,13 +38,13 @@ creep: [time, stress, strain, temperature]
 # Stress relaxation
 #------------
 # Fix strain, record stress evolution along time
-stress_relaxation: [time, stress, temperature]
+stress_relaxation: [time, stress, temperature, previous_experiment]
 
 #------------
 # Strain relaxation
 #------------
 # Fix stress, record strain evolution along time
-strain_relaxation: [time, strain, temperature]
+strain_relaxation: [time, strain, temperature, previous_experiment]
 
 #------------
 # Composite experiments with steps
