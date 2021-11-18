@@ -1,4 +1,28 @@
-# sample properties
-  sample: silicon droplets in water stabilised with SDS
-  solvent_viscosity: 0.00089 #Pa.s for water at 25°C
-  legend : $\mathrm{silicon~droplets~in~water}$
+---
+# constant parameters to be added to each line of the table
+
+constant_parameters:
+  type: emulsion
+  continuous_phase: water
+  solvent_viscosity: 0.00089 # Pa.s for water at 25°C
+  surfactant: SDS # at a concentration of 10mM
+  dispersed_phase: silicon
+  temperature: 25 #°C
+  in_paper: mason1996yielding
+  
+
+# sample_id : value of the variable parameter
+
+1:
+  volume_fraction: 0.55
+2:
+  volume_fraction: 0.57
+3:
+  volume_fraction: 0.58
+4:
+  volume_fraction: 0.60
+5:
+  volume_fraction: 0.63
+6:
+  volume_fraction: 0.65
+---
