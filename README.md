@@ -25,7 +25,14 @@ https://www.pythonforthelab.com/blog/storing-data-with-sqlite/
     * tags
 
 ## Data schema (temporary, to be discussed)
+
 ![IMG_20211119_115153](https://user-images.githubusercontent.com/16650466/142611930-bd6be6bc-3b95-4c5a-8a69-3045f3590be8.jpg)
+
+### Questions about data schema : 
+
+- do we really do different tables for each experiment type or put all in the same one with the experiment_type column and Null values when the data is not provided (like time column wont exist in a flow_curve experiment)
+- should we add a sample_id column in each small tables
+- is a sample_batch table interresting ? (it would compile together the ids of samples prepared in similar conditions)
 
 
 
