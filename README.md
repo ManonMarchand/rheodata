@@ -1,7 +1,7 @@
 # Collection of rheo data of yield stress fluids
 
-Using sqlite
-https://www.pythonforthelab.com/blog/storing-data-with-sqlite/
+- Using sqlite https://www.pythonforthelab.com/blog/storing-data-with-sqlite/
+- or postgresql if we decide that the data of a same experiment should stay as a single entry
 
 * xl folder contain csv files from webplotdigitizer
   * one file per figure even if the figure contains multiple datasets
