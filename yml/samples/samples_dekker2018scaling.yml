@@ -1,7 +1,7 @@
 ---
 # constant parameters to be added to each line of the table
 
-constant_parameters:
+dekker2018scaling:
   type: emulsion
   continuous_phase: water
   surfactant: SDS
@@ -11,6 +11,14 @@ constant_parameters:
   polydispersity: 20 # %
   temperature: 25 #°C
   in_paper: dekker2018scaling
+  volume_fraction:
+  - 0.68
+  - 0.70
+  - 0.72
+  - 0.74
+  - 0.76
+  - 0.78
+  - 0.80
 
 # sample_id : name_of_variable_parameter : value_of_the_variable_parameter
 
