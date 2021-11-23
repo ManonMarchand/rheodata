@@ -34,5 +34,10 @@
 - should we add a sample_id column in each small tables
 - is a sample_batch table interresting ? (it would compile together the ids of samples prepared in similar conditions)
 
+### TO DO list
+
+- add figure and sample_batch tables into schema
+- template for data submission
+- tutorial for datasubmission
 
 
