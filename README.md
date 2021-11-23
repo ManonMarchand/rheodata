@@ -1,7 +1,7 @@
 # Collection of rheo data of yield stress fluids
 
-Using sqlite
-https://www.pythonforthelab.com/blog/storing-data-with-sqlite/
+- Using sqlite https://www.pythonforthelab.com/blog/storing-data-with-sqlite/
+- or postgresql if we decide that the data of a same experiment should stay as a single entry
 
 * xl folder contain csv files from webplotdigitizer
   * one file per figure even if the figure contains multiple datasets
@@ -34,5 +34,10 @@ https://www.pythonforthelab.com/blog/storing-data-with-sqlite/
 - should we add a sample_id column in each small tables
 - is a sample_batch table interresting ? (it would compile together the ids of samples prepared in similar conditions)
 
+### TO DO list
+
+- add figure and sample_batch tables into schema
+- template for data submission
+- tutorial for datasubmission
 
 
