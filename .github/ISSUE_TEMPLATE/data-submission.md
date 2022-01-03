@@ -7,4 +7,4 @@ assignees: 'ManonMarchand'
 
 ---
 
-You can provide here either raw data or a paper name. In the latter case, the data will be extracted from the figures. Any information about samples and/or experiments is also welcome.
+You can provide here a paper name and doi. The data will be extracted from the figures. Any information about samples and/or experiments is also welcome.
