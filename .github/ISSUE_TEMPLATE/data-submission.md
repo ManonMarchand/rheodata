@@ -3,7 +3,7 @@ name: Data submission
 about: This template is to ask for a new paper to be added to the database
 title: Data submission
 labels: data_submission
-assignees: ''
+assignees: 'ManonMarchand'
 
 ---
 
