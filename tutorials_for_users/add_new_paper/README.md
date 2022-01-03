@@ -12,6 +12,8 @@ Access the "Issues" page
 
 ![TUTO_IMG_2](https://user-images.githubusercontent.com/16650466/147954667-1c50a429-ba11-4b15-9f26-51eb3c6d8b72.png)
 
+- any additional information on the samples, the experiments, or material and methods is welcome but not mandatory
+
 ## The issue will be closed when the database is updated with the new paper
 
 (can take a few days)
