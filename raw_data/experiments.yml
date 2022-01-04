@@ -51,4 +51,5 @@ strain_relaxation: [time, strain, temperature, previous_experiment]
 #------------
 
 # Select from the list above and build experiment with those blocks
+# Steps are represented by the "previous_experiemnt" and "next_experiment" columns in the experiments table
 ---
