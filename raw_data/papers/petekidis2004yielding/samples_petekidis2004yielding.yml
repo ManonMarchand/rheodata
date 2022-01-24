@@ -1,0 +1,28 @@
+---
+# constant parameters to be added to each line of the table
+
+constant_parameters:
+  type: suspension
+  continuous_phase: dodecane
+  solvent_viscosity: 0.00149 #Pa.s at 20°C
+  dispersed_phase: PMMA
+  temperature: 20 # °C
+  in_paper: petekidis2004yielding
+  polydispersity: 12 # %
+  mean_radius: 183e-9 # m
+  thermal: true
+  
+
+# sample_id : value of the variable parameter
+
+1:
+  volume_fraction: 0.63
+2:
+  volume_fraction: 0.62
+3:
+  volume_fraction: 0.603
+4:
+  volume_fraction: 0.596
+5:
+  volume_fraction: 0.586
+---
