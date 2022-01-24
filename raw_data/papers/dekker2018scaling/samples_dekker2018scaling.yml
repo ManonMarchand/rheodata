@@ -11,29 +11,24 @@ dekker2018scaling:
   polydispersity: 20 # %
   temperature: 25 #°C
   in_paper: dekker2018scaling
-  volume_fraction:
-  - 0.68
-  - 0.70
-  - 0.72
-  - 0.74
-  - 0.76
-  - 0.78
-  - 0.80
+  in_figure: dekker2018scaling_fig2a
+
+---
 
 # sample_id : name_of_variable_parameter : value_of_the_variable_parameter
 
-1: 
+s1:
   volume_fraction: 0.68
-2: 
+s2:
   volume_fraction: 0.70
-3: 
+s3:
  volume_fraction: 0.72
-4: 
+s4:
  volume_fraction: 0.74
-5: 
+s5:
  volume_fraction: 0.76
-6: 
+s6:
  volume_fraction: 0.78
-7: 
+s7:
  volume_fraction: 0.80
 ---
