@@ -3,47 +3,49 @@
 
 constant_parameters:
   type: emulsion
-  dispersed_phase: 
-  temperature: 
+  dispersed_phase:
+  temperature:
   in_paper: seth2011micromechanical
   surfactant: triton X # non-ionic
   thermal: false
 
-# sample_id : value of the variable parameter
+---
 
-1:
+# sample_id : value of the variable parameters
+
+s1:
   volume_fraction: 0.92
   continuous_phase: water and glycerol
   solvent_viscosity: 0.0079 # Pa.s
-2:
+s2:
   volume_fraction: 0.87
   continuous_phase: water and glycerol
   solvent_viscosity: 0.0079 # Pa.s
-3:
+s3:
   volume_fraction: 0.79
   continuous_phase: water and glycerol
   solvent_viscosity: 0.0079 # Pa.s
-4:
+s4:
   continuous_phase: water and glycerol
   solvent_viscosity: 0.0079 # Pa.s
   volume_fraction: 0.76
-5:
+s5:
   continuous_phase: water and glycerol
   solvent_viscosity: 0.0079 # Pa.s
   volume_fraction: 0.72
-6: 
+s6:
   continuous_phase: water and glycerol
   solvent_viscosity: 0.0079 # Pa.s
   volume_fraction: 0.70
-7: 
+s7:
   continuous_phase: water
   solvent_viscosity: 0.001 # Pa.s
   volume_fraction: 0.86
-8: 
+s8:
   continuous_phase: water
   solvent_viscosity: 0.001 # Pa.s
   volume_fraction: 0.75
-9: 
+s9:
   continuous_phase: water
   solvent_viscosity: 0.001 # Pa.s
   volume_fraction: 0.72

@@ -11,28 +11,28 @@ constant_parameters:
   in_paper: paredes2013rheology
   polydispersity: 20 # %
   mean_radius: 3.2e-6 # m
-  
 
+---
 # sample_id : value of the variable parameter
 
-1:
+s1:
   volume_fraction: 0.8
-2:
+s2:
   volume_fraction: 0.78
-3:
+s3:
   volume_fraction: 0.76
-4:
+s4:
   volume_fraction: 0.74
-5:
+s5:
   volume_fraction: 0.72
-6:
+s6:
   volume_fraction: 0.7
-7:
+s7:
   volume_fraction: 0.68
-8:
+s8:
   volume_fraction: 0.67
-9:
+s9:
   volume_fraction: 0.66
-:
+s10:
   volume_fraction: 0.65
 ---

@@ -9,22 +9,22 @@ constant_parameters:
   mean_radius: 275e-9 # m, measured by dynamic light scattering on a dilute batch
   temperature: 10 #°C
   in_paper: ghosh2019linear
-  
 
+---
 # sample_id : value of the variable parameter
 
-1:
+s1:
   volume_fraction: 0.46 # in this paper, the volume fraction is derived from authors interpretation
-2:
+s2:
   volume_fraction: 0.51
-3:
+s3:
   volume_fraction: 0.62
-4:
+s4:
   volume_fraction: 0.72
-5:
+s5:
   volume_fraction: 0.8
-6:
+s6:
   volume_fraction: 0.88
-7:
-  volume_fraction: 0.881 
+s7:
+  volume_fraction: 0.881
 ---

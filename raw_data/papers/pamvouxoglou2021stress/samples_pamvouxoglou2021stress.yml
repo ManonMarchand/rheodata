@@ -10,14 +10,14 @@ constant_parameters:
   in_paper: pamvouxoglou2021stress
   polydispersity: 25 # %
   mean_radius: 157e-9 # m, measured via static light scattering
-  
 
+---
 # sample_id : value of the variable parameter
 
-1:
+s1:
   volume_fraction: 0.575
-2:
+s2:
   volume_fraction: 0.602
-3:
+s3:
   volume_fraction: 0.624
 ---

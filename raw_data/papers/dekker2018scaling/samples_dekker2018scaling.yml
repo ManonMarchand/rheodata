@@ -1,7 +1,7 @@
 ---
 # constant parameters to be added to each line of the table
 
-dekker2018scaling:
+constant_parameters:
   type: emulsion
   continuous_phase: water
   surfactant: SDS

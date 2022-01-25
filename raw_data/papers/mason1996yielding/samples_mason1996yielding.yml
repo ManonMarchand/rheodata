@@ -11,20 +11,20 @@ constant_parameters:
   in_paper: mason1996yielding
   polydispersity: 10 # %
   mean_radius: 0.25e-6 # m
-  
 
+---
 # sample_id : value of the variable parameter
 
-1:
+s1:
   volume_fraction: 0.55
-2:
+s2:
   volume_fraction: 0.57
-3:
+s3:
   volume_fraction: 0.58
-4:
+s4:
   volume_fraction: 0.60
-5:
+s5:
   volume_fraction: 0.63
-6:
+s6:
   volume_fraction: 0.65
 ---

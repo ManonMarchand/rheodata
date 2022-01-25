@@ -11,21 +11,23 @@ constant_parameters:
   temperature: 25 #°C
   in_paper: dinkgreve2015universal
 
+---
+
 # sample_id : value of the variable parameter
 
-1:
+s1:
   volume_fraction: 0.65
-2:
+s2:
   volume_fraction: 0.66
-3:
+s3:
   volume_fraction: 0.68
-4:
+s4:
   volume_fraction: 0.7
-5:
+s5:
   volume_fraction: 0.72
-6:
+s6:
   volume_fraction: 0.76
-7:
-  volume_fraction: 0.8  
-  
+s7:
+  volume_fraction: 0.8
+
 ---
