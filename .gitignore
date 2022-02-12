@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#ignore folders
+three_component_model/
+
 # C extensions
 *.so
 
