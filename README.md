@@ -1,3 +1,5 @@
+Tidy data from Hadley Wickham (2014) https://www.jstatsoft.org/article/view/v059i10
+
 # Collection of rheo data of yield stress fluids
 
 * xl folder contain csv files from webplotdigitizer
