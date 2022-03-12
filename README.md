@@ -1,4 +1,7 @@
 Tidy data from Hadley Wickham (2014) https://www.jstatsoft.org/article/view/v059i10
+Google search for datasets https://datasetsearch.research.google.com/
+Kaggle
+Cern open data portal
 
 # Collection of rheo data of yield stress fluids
 
